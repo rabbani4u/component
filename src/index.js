@@ -10,11 +10,11 @@ if (module.hot) {
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetails />
-      <CommentDetails />
-      <CommentDetails />
-      <CommentDetails />
-      <CommentDetails />
+      <CommentDetails author="Sam" />
+      <CommentDetails author="Alex" />
+      <CommentDetails author="Mikel" />
+      <CommentDetails author="Sarah" />
+      <CommentDetails author="Linck" />
     </div>
   );
 };
